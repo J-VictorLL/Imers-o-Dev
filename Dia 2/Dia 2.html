@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Dia 2.css">
+        <script src="Dia 2.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+            Conversor de moedas
+            </h1>
+            <p class="page-subtitle">
+            Descubra os valores em Real R$
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+            <label for="moeda">Insira o valor em Dolar</label><br>
+            <input type="number" id="valor" size="2" /><br>
+            <button type="submit" onclick="ConverterR()">Converter Para R$</button>
+            <button type="submit" onclick="ConverterY()">Converter Para ¥</button>
+            <button type="submit" onclick="ConverterE()">Converter Para €</button>
+            <h2 id="valorConvertido"></h2>
+        </div>
+        
+        <div class="container">
+            <h1 class="page-title">
+            Conversor de temperatura
+            </h1>
+            <p class="page-subtitle">
+            Descubra os valores de Cº em F ou K
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+            <label for="moeda">Insira o valor em Celsius</label><br>
+            <input type="number" id="valorT" size="2" /><br>
+            <button type="submit" onclick="ConverterF()">Converter Para Fahrenheit</button>
+            <button type="submit" onclick="ConverterK()">Converter Para Kelvin</button>
+            <h2 id="valorConvertido3"></h2>
+        </div>
+
+        <div class="container">
+            <h1 class="page-title">
+            Conversor de distancias/anos
+            </h1>
+            <p class="page-subtitle">
+            Descubra Quantos anos demora para viajar na velocidade da luz até outra estrela
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+            <label for="moeda">Insira A distância em Kilometros até a estrela</label><br>
+            <input type="number" id="valorD" size="2" /><br>
+            <button type="submit" onclick="ConverterA()">Converter em anos</button>
+            <h2 id="valorConvertido2"></h2>
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+    </body>
+</html>
