@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Dia 6.css">
+        
+        <title>
+            Imersão Dev - Aula 06
+        </title>
+    </head>
+    <body>
+        <h1>Tabela de classificação</h1>
+
+        <table style="width:100%">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Vitórias</th>
+              <th>Empates</th>
+              <th>Derrotas</th>
+              <th>Pontos</th>
+              <th colspan="4">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaJogadores">
+          </tbody>
+        </table>
+        <div id="novo">
+            <input type="text" id="nome" placeholder="Insira nome..."><button onclick="Adicionar()">Adicionar Jogador</button>
+        </div>
+        <script src="Dia 6.js"></script>
+    </body>
+</html>
