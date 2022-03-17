@@ -50,7 +50,7 @@ function exibirOpcoes(){
     var opcoesTexto = ""
 
     for(var atributo in cartaJogador.atributo){
-        opcoesTexto += "<input type='radio' name='atributo' value="+atributo+">"+atributo;
+        opcoesTexto += "<input type='radio' name='atributo' id='atributo' value="+atributo+">"+atributo;
     }
     opcoes.innerHTML = opcoesTexto;
 }
