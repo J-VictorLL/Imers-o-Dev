@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background: linear-gradient(236.85deg, #1b022c 27.26%, #14ac3a 96.03%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Campo_lista{
+    background: linear-gradient(236.85deg, #5e7fb4 27.26%, #47d8a7 96.03%);
+    font-size: 24px;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e101159;
+
+}
+
+.Conteiner{
+    background: #e4e4e4;
+    margin: 72px;
+    border-radius: 20px;
+    
+    box-shadow: 6px 6px 6px #0e1011;
+    color: #292929;
+    padding: 48px;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil-imagem{
+    border-radius: 400px;
+    max-height: 200px;
+    box-shadow: 0px 6px 6px rgb(0,0,0.25);
+}
+
+.titulo{
+    margin-left: 30px;
+}
+
+.titulo h1{
+   font-weight: 700;
+   font-size: 38px;
+}
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+ }
+
+ .projetos{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 32px;
+     color: #1C1C1C;
+     font-weight: 400;
+     text-align: center;
+ }
+
+ .trabalhos{
+    font-size: 36px;
+    color: #1C1C1C;
+    list-style-type: none;
+    margin: 10px;
+ }
+
+ .trabalhos a{
+    color: #1C1C1C;
+    text-decoration: none
+ }
+ .trabalhos a:hover{
+    color: #ffffff;
+    text-decoration: none
+ }
+
